@@ -1,0 +1,1289 @@
+{
+    "data": {
+        "attributes": {
+            "authentihash": "43efffa62f9b9a0d43d9caf922142a2716e5e4bb17d1f19ac6a679ac0bbcf719",
+            "creation_date": 1567039421,
+            "crowdsourced_yara_results": [
+                {
+                    "author": "Florian Roth (Nextron Systems)",
+                    "description": "Detects mining pool protocol string in Executable",
+                    "match_date": 1740607903,
+                    "rule_name": "CoinMiner_Strings",
+                    "ruleset_id": "000500ecbe",
+                    "ruleset_name": "pua_cryptocoin_miner",
+                    "source": "https://github.com/Neo23x0/signature-base"
+                },
+                {
+                    "author": "Elastic Security",
+                    "match_date": 1740607903,
+                    "rule_name": "Windows_Cryptominer_Generic_f53cfb9b",
+                    "ruleset_id": "015ebc1998",
+                    "ruleset_name": "Windows_Cryptominer_Generic",
+                    "source": "https://github.com/elastic/protections-artifacts"
+                }
+            ],
+            "detectiteasy": {
+                "filetype": "PE64",
+                "values": [
+                    {
+                        "info": "C++",
+                        "name": "Microsoft Visual C/C++",
+                        "type": "Compiler",
+                        "version": "19.22.27905"
+                    },
+                    {
+                        "name": "Microsoft Linker",
+                        "type": "Linker",
+                        "version": "14.22.27905"
+                    },
+                    {
+                        "name": "Visual Studio",
+                        "type": "Tool",
+                        "version": "2019 version 16.2"
+                    }
+                ]
+            },
+            "filecondis": {
+                "dhash": "707e3e1e1e172304",
+                "raw_md5": "ded8a1571d11b86b65cfd280d5c0a84e"
+            },
+            "first_submission_date": 1740607901,
+            "last_analysis_date": 1740607901,
+            "last_analysis_results": {
+                "ALYac": {
+                    "category": "malicious",
+                    "engine_name": "ALYac",
+                    "engine_update": "20250226",
+                    "engine_version": "2.0.0.10",
+                    "method": "blacklist",
+                    "result": "Trojan.GenericKD.69370767"
+                },
+                "APEX": {
+                    "category": "malicious",
+                    "engine_name": "APEX",
+                    "engine_update": "20250225",
+                    "engine_version": "6.627",
+                    "method": "blacklist",
+                    "result": "Malicious"
+                },
+                "AVG": {
+                    "category": "malicious",
+                    "engine_name": "AVG",
+                    "engine_update": "20250226",
+                    "engine_version": "23.9.8494.0",
+                    "method": "blacklist",
+                    "result": "Win32:BotX-gen [Trj]"
+                },
+                "Acronis": {
+                    "category": "undetected",
+                    "engine_name": "Acronis",
+                    "engine_update": "20240328",
+                    "engine_version": "1.2.0.121",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "AhnLab-V3": {
+                    "category": "malicious",
+                    "engine_name": "AhnLab-V3",
+                    "engine_update": "20250226",
+                    "engine_version": "3.27.1.10534",
+                    "method": "blacklist",
+                    "result": "Trojan/Win32.Cometer.R289456"
+                },
+                "Alibaba": {
+                    "category": "undetected",
+                    "engine_name": "Alibaba",
+                    "engine_update": "20190527",
+                    "engine_version": "0.3.0.5",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "Antiy-AVL": {
+                    "category": "malicious",
+                    "engine_name": "Antiy-AVL",
+                    "engine_update": "20250226",
+                    "engine_version": "3.0",
+                    "method": "blacklist",
+                    "result": "RiskWare[RiskTool]/Win32.BitMiner"
+                },
+                "Arcabit": {
+                    "category": "malicious",
+                    "engine_name": "Arcabit",
+                    "engine_update": "20250226",
+                    "engine_version": "2022.0.0.18",
+                    "method": "blacklist",
+                    "result": "Trojan.Generic.D422838F"
+                },
+                "Avast": {
+                    "category": "malicious",
+                    "engine_name": "Avast",
+                    "engine_update": "20250226",
+                    "engine_version": "23.9.8494.0",
+                    "method": "blacklist",
+                    "result": "Win32:BotX-gen [Trj]"
+                },
+                "Avast-Mobile": {
+                    "category": "type-unsupported",
+                    "engine_name": "Avast-Mobile",
+                    "engine_update": "20250226",
+                    "engine_version": "250226-00",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "Avira": {
+                    "category": "malicious",
+                    "engine_name": "Avira",
+                    "engine_update": "20250226",
+                    "engine_version": "8.3.3.20",
+                    "method": "blacklist",
+                    "result": "HEUR/AGEN.1320164"
+                },
+                "Baidu": {
+                    "category": "undetected",
+                    "engine_name": "Baidu",
+                    "engine_update": "20190318",
+                    "engine_version": "1.0.0.2",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "BitDefender": {
+                    "category": "malicious",
+                    "engine_name": "BitDefender",
+                    "engine_update": "20250226",
+                    "engine_version": "7.2",
+                    "method": "blacklist",
+                    "result": "Trojan.GenericKD.69370767"
+                },
+                "BitDefenderFalx": {
+                    "category": "type-unsupported",
+                    "engine_name": "BitDefenderFalx",
+                    "engine_update": "20241203",
+                    "engine_version": "2.0.936",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "Bkav": {
+                    "category": "malicious",
+                    "engine_name": "Bkav",
+                    "engine_update": "20250226",
+                    "engine_version": "2.0.0.1",
+                    "method": "blacklist",
+                    "result": "W64.AIDetectMalware"
+                },
+                "CAT-QuickHeal": {
+                    "category": "malicious",
+                    "engine_name": "CAT-QuickHeal",
+                    "engine_update": "20250225",
+                    "engine_version": "22.00",
+                    "method": "blacklist",
+                    "result": "Trojan.Miner.S28484635"
+                },
+                "CMC": {
+                    "category": "undetected",
+                    "engine_name": "CMC",
+                    "engine_update": "20250226",
+                    "engine_version": "2.4.2022.1",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "CTX": {
+                    "category": "malicious",
+                    "engine_name": "CTX",
+                    "engine_update": "20250226",
+                    "engine_version": "2024.8.29.1",
+                    "method": "blacklist",
+                    "result": "exe.trojan.generic"
+                },
+                "ClamAV": {
+                    "category": "malicious",
+                    "engine_name": "ClamAV",
+                    "engine_update": "20250226",
+                    "engine_version": "1.4.2.0",
+                    "method": "blacklist",
+                    "result": "Win.Malware.Mansabo-7102049-0"
+                },
+                "CrowdStrike": {
+                    "category": "malicious",
+                    "engine_name": "CrowdStrike",
+                    "engine_update": "20231026",
+                    "engine_version": "1.0",
+                    "method": "blacklist",
+                    "result": "win/malicious_confidence_100% (W)"
+                },
+                "Cylance": {
+                    "category": "malicious",
+                    "engine_name": "Cylance",
+                    "engine_update": "20250109",
+                    "engine_version": "3.0.0.0",
+                    "method": "blacklist",
+                    "result": "Unsafe"
+                },
+                "Cynet": {
+                    "category": "malicious",
+                    "engine_name": "Cynet",
+                    "engine_update": "20250226",
+                    "engine_version": "4.0.3.4",
+                    "method": "blacklist",
+                    "result": "Malicious (score: 100)"
+                },
+                "DeepInstinct": {
+                    "category": "malicious",
+                    "engine_name": "DeepInstinct",
+                    "engine_update": "20250224",
+                    "engine_version": "5.0.0.8",
+                    "method": "blacklist",
+                    "result": "MALICIOUS"
+                },
+                "DrWeb": {
+                    "category": "malicious",
+                    "engine_name": "DrWeb",
+                    "engine_update": "20250226",
+                    "engine_version": "7.0.65.5230",
+                    "method": "blacklist",
+                    "result": "Trojan.BtcMine.3361"
+                },
+                "ESET-NOD32": {
+                    "category": "malicious",
+                    "engine_name": "ESET-NOD32",
+                    "engine_update": "20250226",
+                    "engine_version": "30783",
+                    "method": "blacklist",
+                    "result": "a variant of Win64/CoinMiner.SY"
+                },
+                "Elastic": {
+                    "category": "malicious",
+                    "engine_name": "Elastic",
+                    "engine_update": "20250224",
+                    "engine_version": "4.0.190",
+                    "method": "blacklist",
+                    "result": "Windows.Cryptominer.Generic"
+                },
+                "Emsisoft": {
+                    "category": "malicious",
+                    "engine_name": "Emsisoft",
+                    "engine_update": "20250226",
+                    "engine_version": "2024.8.0.61147",
+                    "method": "blacklist",
+                    "result": "Trojan.GenericKD.69370767 (B)"
+                },
+                "F-Secure": {
+                    "category": "malicious",
+                    "engine_name": "F-Secure",
+                    "engine_update": "20250226",
+                    "engine_version": "18.10.1547.307",
+                    "method": "blacklist",
+                    "result": "Heuristic.HEUR/AGEN.1320164"
+                },
+                "FireEye": {
+                    "category": "malicious",
+                    "engine_name": "FireEye",
+                    "engine_update": "20250226",
+                    "engine_version": "35.47.0.0",
+                    "method": "blacklist",
+                    "result": "Generic.mg.744683d81898899e"
+                },
+                "Fortinet": {
+                    "category": "malicious",
+                    "engine_name": "Fortinet",
+                    "engine_update": "20250226",
+                    "engine_version": "7.0.30.0",
+                    "method": "blacklist",
+                    "result": "W32/Generic.AC.45E4B5!tr"
+                },
+                "GData": {
+                    "category": "malicious",
+                    "engine_name": "GData",
+                    "engine_update": "20250226",
+                    "engine_version": "A:25.39862B:27.39413",
+                    "method": "blacklist",
+                    "result": "Trojan.GenericKD.69370767"
+                },
+                "Google": {
+                    "category": "malicious",
+                    "engine_name": "Google",
+                    "engine_update": "20250226",
+                    "engine_version": "1740605422",
+                    "method": "blacklist",
+                    "result": "Detected"
+                },
+                "Gridinsoft": {
+                    "category": "malicious",
+                    "engine_name": "Gridinsoft",
+                    "engine_update": "20250226",
+                    "engine_version": "1.0.209.174",
+                    "method": "blacklist",
+                    "result": "Trojan.Win64.CoinMiner.oa!s1"
+                },
+                "Ikarus": {
+                    "category": "malicious",
+                    "engine_name": "Ikarus",
+                    "engine_update": "20250226",
+                    "engine_version": "6.3.30.0",
+                    "method": "blacklist",
+                    "result": "Trojan-Downloader.Win32.Banload"
+                },
+                "Jiangmin": {
+                    "category": "malicious",
+                    "engine_name": "Jiangmin",
+                    "engine_update": "20250225",
+                    "engine_version": "16.0.100",
+                    "method": "blacklist",
+                    "result": "Trojan.Mansabo.bxr"
+                },
+                "K7AntiVirus": {
+                    "category": "malicious",
+                    "engine_name": "K7AntiVirus",
+                    "engine_update": "20250226",
+                    "engine_version": "12.220.54949",
+                    "method": "blacklist",
+                    "result": "CryptoMiner ( 005599421 )"
+                },
+                "K7GW": {
+                    "category": "malicious",
+                    "engine_name": "K7GW",
+                    "engine_update": "20250226",
+                    "engine_version": "12.220.54949",
+                    "method": "blacklist",
+                    "result": "CryptoMiner ( 005599421 )"
+                },
+                "Kaspersky": {
+                    "category": "malicious",
+                    "engine_name": "Kaspersky",
+                    "engine_update": "20250226",
+                    "engine_version": "22.0.1.28",
+                    "method": "blacklist",
+                    "result": "Trojan.Win32.Mansabo.btu"
+                },
+                "Kingsoft": {
+                    "category": "malicious",
+                    "engine_name": "Kingsoft",
+                    "engine_update": "20250226",
+                    "engine_version": "None",
+                    "method": "blacklist",
+                    "result": "malware.kb.a.1000"
+                },
+                "Lionic": {
+                    "category": "undetected",
+                    "engine_name": "Lionic",
+                    "engine_update": "20250226",
+                    "engine_version": "8.16",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "Malwarebytes": {
+                    "category": "undetected",
+                    "engine_name": "Malwarebytes",
+                    "engine_update": "20250226",
+                    "engine_version": "4.5.5.54",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "MaxSecure": {
+                    "category": "undetected",
+                    "engine_name": "MaxSecure",
+                    "engine_update": "20250226",
+                    "engine_version": "1.0.0.1",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "McAfee": {
+                    "category": "malicious",
+                    "engine_name": "McAfee",
+                    "engine_update": "20250226",
+                    "engine_version": "6.0.6.653",
+                    "method": "blacklist",
+                    "result": "Dropper-FXA!744683D81898"
+                },
+                "McAfeeD": {
+                    "category": "malicious",
+                    "engine_name": "McAfeeD",
+                    "engine_update": "20250226",
+                    "engine_version": "1.2.0.7977",
+                    "method": "blacklist",
+                    "result": "Real Protect-LS!744683D81898"
+                },
+                "MicroWorld-eScan": {
+                    "category": "malicious",
+                    "engine_name": "MicroWorld-eScan",
+                    "engine_update": "20250226",
+                    "engine_version": "14.0.409.0",
+                    "method": "blacklist",
+                    "result": "Trojan.GenericKD.69370767"
+                },
+                "Microsoft": {
+                    "category": "malicious",
+                    "engine_name": "Microsoft",
+                    "engine_update": "20250226",
+                    "engine_version": "1.1.25010.7",
+                    "method": "blacklist",
+                    "result": "HackTool:Win32/CobaltStrike!pz"
+                },
+                "NANO-Antivirus": {
+                    "category": "malicious",
+                    "engine_name": "NANO-Antivirus",
+                    "engine_update": "20250226",
+                    "engine_version": "1.0.170.26436",
+                    "method": "blacklist",
+                    "result": "Trojan.Win32.Trick.fmnsou"
+                },
+                "Paloalto": {
+                    "category": "undetected",
+                    "engine_name": "Paloalto",
+                    "engine_update": "20250226",
+                    "engine_version": "0.9.0.1003",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "Panda": {
+                    "category": "malicious",
+                    "engine_name": "Panda",
+                    "engine_update": "20250226",
+                    "engine_version": "4.6.4.2",
+                    "method": "blacklist",
+                    "result": "Trj/GdSda.A"
+                },
+                "Rising": {
+                    "category": "malicious",
+                    "engine_name": "Rising",
+                    "engine_update": "20250226",
+                    "engine_version": "25.0.0.28",
+                    "method": "blacklist",
+                    "result": "Trojan.CoinMiner!1.C2B5 (CLASSIC)"
+                },
+                "SUPERAntiSpyware": {
+                    "category": "malicious",
+                    "engine_name": "SUPERAntiSpyware",
+                    "engine_update": "20250225",
+                    "engine_version": "5.6.0.1032",
+                    "method": "blacklist",
+                    "result": "Hack.Tool/Gen-BitCoinMiner"
+                },
+                "Sangfor": {
+                    "category": "malicious",
+                    "engine_name": "Sangfor",
+                    "engine_update": "20250226",
+                    "engine_version": "2.22.3.0",
+                    "method": "blacklist",
+                    "result": "Trojan.Win32.Save.a"
+                },
+                "SentinelOne": {
+                    "category": "malicious",
+                    "engine_name": "SentinelOne",
+                    "engine_update": "20250114",
+                    "engine_version": "25.1.1.1",
+                    "method": "blacklist",
+                    "result": "Static AI - Malicious PE"
+                },
+                "Skyhigh": {
+                    "category": "malicious",
+                    "engine_name": "Skyhigh",
+                    "engine_update": "20250226",
+                    "engine_version": "v2021.2.0+4045",
+                    "method": "blacklist",
+                    "result": "BehavesLike.Win64.Dropper.th"
+                },
+                "Sophos": {
+                    "category": "malicious",
+                    "engine_name": "Sophos",
+                    "engine_update": "20250226",
+                    "engine_version": "2.5.5.0",
+                    "method": "blacklist",
+                    "result": "Mal/VB-AQW"
+                },
+                "Symantec": {
+                    "category": "malicious",
+                    "engine_name": "Symantec",
+                    "engine_update": "20250226",
+                    "engine_version": "1.22.0.0",
+                    "method": "blacklist",
+                    "result": "Packed.Generic.696"
+                },
+                "SymantecMobileInsight": {
+                    "category": "type-unsupported",
+                    "engine_name": "SymantecMobileInsight",
+                    "engine_update": "20250124",
+                    "engine_version": "2.0",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "TACHYON": {
+                    "category": "malicious",
+                    "engine_name": "TACHYON",
+                    "engine_update": "20250226",
+                    "engine_version": "2025-02-26.02",
+                    "method": "blacklist",
+                    "result": "Trojan/W64.Mansabo.1669490"
+                },
+                "Tencent": {
+                    "category": "malicious",
+                    "engine_name": "Tencent",
+                    "engine_update": "20250226",
+                    "engine_version": "1.0.0.1",
+                    "method": "blacklist",
+                    "result": "Trojan.Win64.CoinMiner.b"
+                },
+                "Trapmine": {
+                    "category": "malicious",
+                    "engine_name": "Trapmine",
+                    "engine_update": "20250205",
+                    "engine_version": "4.0.4.0",
+                    "method": "blacklist",
+                    "result": "suspicious.low.ml.score"
+                },
+                "TrendMicro": {
+                    "category": "malicious",
+                    "engine_name": "TrendMicro",
+                    "engine_update": "20250226",
+                    "engine_version": "11.0.0.1006",
+                    "method": "blacklist",
+                    "result": "Coinminer.Win64.TOOLXMR.SMA"
+                },
+                "TrendMicro-HouseCall": {
+                    "category": "undetected",
+                    "engine_name": "TrendMicro-HouseCall",
+                    "engine_update": "20250226",
+                    "engine_version": "10.0.0.1040",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "Trustlook": {
+                    "category": "type-unsupported",
+                    "engine_name": "Trustlook",
+                    "engine_update": "20250226",
+                    "engine_version": "1.0",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "VBA32": {
+                    "category": "malicious",
+                    "engine_name": "VBA32",
+                    "engine_update": "20250226",
+                    "engine_version": "5.3.1",
+                    "method": "blacklist",
+                    "result": "Trojan.BtcMine"
+                },
+                "VIPRE": {
+                    "category": "malicious",
+                    "engine_name": "VIPRE",
+                    "engine_update": "20250226",
+                    "engine_version": "6.0.0.35",
+                    "method": "blacklist",
+                    "result": "Trojan.GenericKD.69370767"
+                },
+                "Varist": {
+                    "category": "malicious",
+                    "engine_name": "Varist",
+                    "engine_update": "20250226",
+                    "engine_version": "6.6.1.3",
+                    "method": "blacklist",
+                    "result": "W64/Coinminer.GT"
+                },
+                "ViRobot": {
+                    "category": "undetected",
+                    "engine_name": "ViRobot",
+                    "engine_update": "20250226",
+                    "engine_version": "2014.3.20.0",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "VirIT": {
+                    "category": "malicious",
+                    "engine_name": "VirIT",
+                    "engine_update": "20250226",
+                    "engine_version": "9.5.900",
+                    "method": "blacklist",
+                    "result": "Trojan.Win64.Genus.CHIY"
+                },
+                "Webroot": {
+                    "category": "malicious",
+                    "engine_name": "Webroot",
+                    "engine_update": "20240910",
+                    "engine_version": "1.9.0.8",
+                    "method": "blacklist",
+                    "result": "W32.Coinminer.Xmrig"
+                },
+                "Xcitium": {
+                    "category": "undetected",
+                    "engine_name": "Xcitium",
+                    "engine_update": "20250226",
+                    "engine_version": "37511",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "Yandex": {
+                    "category": "malicious",
+                    "engine_name": "Yandex",
+                    "engine_update": "20250226",
+                    "engine_version": "5.5.2.24",
+                    "method": "blacklist",
+                    "result": "Trojan.Mansabo!XUBuF46rW+0"
+                },
+                "Zillya": {
+                    "category": "malicious",
+                    "engine_name": "Zillya",
+                    "engine_update": "20250226",
+                    "engine_version": "2.0.0.5308",
+                    "method": "blacklist",
+                    "result": "Trojan.CoinMiner.Win64.15235"
+                },
+                "Zoner": {
+                    "category": "undetected",
+                    "engine_name": "Zoner",
+                    "engine_update": "20250226",
+                    "engine_version": "2.2.2.0",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "alibabacloud": {
+                    "category": "undetected",
+                    "engine_name": "alibabacloud",
+                    "engine_update": "20241030",
+                    "engine_version": "2.2.0",
+                    "method": "blacklist",
+                    "result": null
+                },
+                "huorong": {
+                    "category": "malicious",
+                    "engine_name": "huorong",
+                    "engine_update": "20250225",
+                    "engine_version": "2001e89:2001e89:57a0abf:57a0abf",
+                    "method": "blacklist",
+                    "result": "Trojan/CoinMiner.iq"
+                },
+                "tehtris": {
+                    "category": "undetected",
+                    "engine_name": "tehtris",
+                    "engine_update": "20250226",
+                    "engine_version": "v0.1.4",
+                    "method": "blacklist",
+                    "result": null
+                }
+            },
+            "last_analysis_stats": {
+                "confirmed-timeout": 0,
+                "failure": 0,
+                "harmless": 0,
+                "malicious": 58,
+                "suspicious": 0,
+                "timeout": 0,
+                "type-unsupported": 4,
+                "undetected": 14
+            },
+            "last_modification_date": 1740608114,
+            "last_submission_date": 1740607901,
+            "magic": "PE32+ executable (console) x86-64, for MS Windows",
+            "magika": "PEBIN",
+            "md5": "744683d81898899e210e5b3363167a57",
+            "names": [
+                "4038ac243957afbd60b21b2ffb49fe1253b9037e1d4523484e55e99049ed881c"
+            ],
+            "pe_info": {
+                "compiler_product_versions": [
+                    "[IMP] VS2008 SP1 build 30729 count=22",
+                    "[---] Unmarked objects count=413",
+                    "[LTC] VS2019 v16.2.3 build 27905 count=30",
+                    "[ASM] VS2019 v16.2.3 build 27905 count=2",
+                    "[ C ] VS2019 v16.2.3 build 27905 count=20",
+                    "[C++] VS2019 v16.2.3 build 27905 count=62",
+                    "[RES] VS2019 v16.2.3 build 27905 count=1",
+                    "[---] Resource count=1",
+                    "[LNK] VS2019 v16.2.3 build 27905 count=1",
+                    "id: 0xc7, version: 41118 count=4",
+                    "id: 0x104, version: 26504 count=10",
+                    "id: 0x103, version: 26504 count=3",
+                    "id: 0x105, version: 26504 count=32",
+                    "id: 0x101, version: 26504 count=4",
+                    "id: 0x101, version: 26715 count=15"
+                ],
+                "entry_point": 631608,
+                "imphash": "71f37f91c14c4729e462a32b6b2ae9d4",
+                "import_list": [
+                    {
+                        "imported_functions": [
+                            "CancelIo",
+                            "CancelIoEx",
+                            "CancelSynchronousIo",
+                            "CloseHandle",
+                            "ConnectNamedPipe",
+                            "CreateEventA",
+                            "CreateEventW",
+                            "CreateFileA",
+                            "CreateFileW",
+                            "CreateIoCompletionPort",
+                            "CreateMutexW",
+                            "CreateNamedPipeW",
+                            "CreateProcessW",
+                            "CreateSemaphoreA",
+                            "CreateSemaphoreW",
+                            "DebugBreak",
+                            "DeleteCriticalSection",
+                            "DuplicateHandle",
+                            "EnterCriticalSection",
+                            "FillConsoleOutputAttribute",
+                            "FillConsoleOutputCharacterW",
+                            "FlushFileBuffers",
+                            "FlushInstructionCache",
+                            "FormatMessageA",
+                            "FreeConsole",
+                            "GetConsoleCursorInfo",
+                            "GetConsoleMode",
+                            "GetConsoleScreenBufferInfo",
+                            "GetConsoleWindow",
+                            "GetCurrentDirectoryW",
+                            "GetCurrentProcess",
+                            "GetCurrentProcessId",
+                            "GetCurrentThread",
+                            "GetCurrentThreadId",
+                            "GetExitCodeProcess",
+                            "GetFileType",
+                            "GetLargePageMinimum",
+                            "GetLastError",
+                            "GetLongPathNameW",
+                            "GetModuleFileNameW",
+                            "GetModuleHandleA",
+                            "GetModuleHandleW",
+                            "GetNamedPipeHandleStateA",
+                            "GetNumberOfConsoleInputEvents",
+                            "GetProcAddress",
+                            "GetProcessAffinityMask",
+                            "GetQueuedCompletionStatus",
+                            "GetQueuedCompletionStatusEx",
+                            "GetStdHandle",
+                            "GetSystemInfo",
+                            "GetSystemTimeAsFileTime",
+                            "InitializeConditionVariable",
+                            "InitializeCriticalSection",
+                            "InitializeCriticalSectionAndSpinCount",
+                            "InitializeSListHead",
+                            "IsDebuggerPresent",
+                            "IsProcessorFeaturePresent",
+                            "LeaveCriticalSection",
+                            "LoadLibraryA",
+                            "LocalAlloc",
+                            "LocalFree",
+                            "MultiByteToWideChar",
+                            "PeekNamedPipe",
+                            "PostQueuedCompletionStatus",
+                            "QueryPerformanceCounter",
+                            "QueryPerformanceFrequency",
+                            "QueueUserWorkItem",
+                            "ReadConsoleInputW",
+                            "ReadConsoleW",
+                            "ReadDirectoryChangesW",
+                            "ReadFile",
+                            "RegisterWaitForSingleObject",
+                            "ReleaseSemaphore",
+                            "ResetEvent",
+                            "ResumeThread",
+                            "RtlCaptureContext",
+                            "RtlLookupFunctionEntry",
+                            "RtlVirtualUnwind",
+                            "SetConsoleCtrlHandler",
+                            "SetConsoleCursorInfo",
+                            "SetConsoleCursorPosition",
+                            "SetConsoleMode",
+                            "SetConsoleTextAttribute",
+                            "SetErrorMode",
+                            "SetEvent",
+                            "SetFileCompletionNotificationModes",
+                            "SetHandleInformation",
+                            "SetLastError",
+                            "SetNamedPipeHandleState",
+                            "SetPriorityClass",
+                            "SetProcessAffinityMask",
+                            "SetThreadAffinityMask",
+                            "SetThreadPriority",
+                            "SetUnhandledExceptionFilter",
+                            "Sleep",
+                            "SleepConditionVariableCS",
+                            "SwitchToThread",
+                            "TerminateProcess",
+                            "TlsAlloc",
+                            "TlsSetValue",
+                            "UnhandledExceptionFilter",
+                            "UnregisterWait",
+                            "UnregisterWaitEx",
+                            "VirtualAlloc",
+                            "VirtualFree",
+                            "VirtualProtect",
+                            "WaitForSingleObject",
+                            "WaitForSingleObjectEx",
+                            "WakeConditionVariable",
+                            "WideCharToMultiByte",
+                            "WriteConsoleInputW",
+                            "WriteConsoleW",
+                            "WriteFile"
+                        ],
+                        "library_name": "KERNEL32.DLL"
+                    },
+                    {
+                        "imported_functions": [
+                            "AdjustTokenPrivileges",
+                            "GetTokenInformation",
+                            "LookupPrivilegeValueW",
+                            "LsaAddAccountRights",
+                            "LsaClose",
+                            "LsaOpenPolicy",
+                            "OpenProcessToken"
+                        ],
+                        "library_name": "ADVAPI32.dll"
+                    },
+                    {
+                        "imported_functions": [
+                            "_strtoui64",
+                            "atof",
+                            "atoi",
+                            "mbstowcs",
+                            "strtol",
+                            "strtoll",
+                            "strtoul",
+                            "strtoull"
+                        ],
+                        "library_name": "api-ms-win-crt-convert-l1-1-0.dll"
+                    },
+                    {
+                        "imported_functions": [
+                            "getenv"
+                        ],
+                        "library_name": "api-ms-win-crt-environment-l1-1-0.dll"
+                    },
+                    {
+                        "imported_functions": [
+                            "_fstat64i32",
+                            "_lock_file",
+                            "_stat64i32",
+                            "_unlock_file"
+                        ],
+                        "library_name": "api-ms-win-crt-filesystem-l1-1-0.dll"
+                    },
+                    {
+                        "imported_functions": [
+                            "_aligned_free",
+                            "_aligned_malloc",
+                            "_callnewh",
+                            "_set_new_mode",
+                            "calloc",
+                            "free",
+                            "malloc",
+                            "realloc"
+                        ],
+                        "library_name": "api-ms-win-crt-heap-l1-1-0.dll"
+                    },
+                    {
+                        "imported_functions": [
+                            "_configthreadlocale"
+                        ],
+                        "library_name": "api-ms-win-crt-locale-l1-1-0.dll"
+                    },
+                    {
+                        "imported_functions": [
+                            "__setusermatherr",
+                            "_dtest",
+                            "fabs",
+                            "modff",
+                            "nan"
+                        ],
+                        "library_name": "api-ms-win-crt-math-l1-1-0.dll"
+                    },
+                    {
+                        "imported_functions": [
+                            "__p___argc",
+                            "__p___argv",
+                            "_beginthreadex",
+                            "_c_exit",
+                            "_cexit",
+                            "_configure_narrow_argv",
+                            "_control87",
+                            "_crt_atexit",
+                            "_errno",
+                            "_exit",
+                            "_get_initial_narrow_environment",
+                            "_initialize_narrow_environment",
+                            "_initialize_onexit_table",
+                            "_initterm",
+                            "_initterm_e",
+                            "_invalid_parameter_noinfo_noreturn",
+                            "_register_onexit_function",
+                            "_register_thread_local_exe_atexit_callback",
+                            "_seh_filter_exe",
+                            "_set_app_type",
+                            "_set_invalid_parameter_handler",
+                            "abort",
+                            "exit",
+                            "strerror",
+                            "terminate"
+                        ],
+                        "library_name": "api-ms-win-crt-runtime-l1-1-0.dll"
+                    },
+                    {
+                        "imported_functions": [
+                            "__acrt_iob_func",
+                            "__p__commode",
+                            "__stdio_common_vfprintf",
+                            "__stdio_common_vsprintf",
+                            "__stdio_common_vsscanf",
+                            "__stdio_common_vswprintf",
+                            "_close",
+                            "_fseeki64",
+                            "_get_osfhandle",
+                            "_get_stream_buffer_pointers",
+                            "_open",
+                            "_read",
+                            "_set_fmode",
+                            "fclose",
+                            "ferror",
+                            "fflush",
+                            "fgetc",
+                            "fgetpos",
+                            "fgets",
+                            "fopen",
+                            "fputc",
+                            "fputs",
+                            "fread",
+                            "fseek",
+                            "fsetpos",
+                            "ftell",
+                            "fwrite",
+                            "setvbuf",
+                            "ungetc"
+                        ],
+                        "library_name": "api-ms-win-crt-stdio-l1-1-0.dll"
+                    },
+                    {
+                        "imported_functions": [
+                            "_strdup",
+                            "_stricmp",
+                            "_strnicmp",
+                            "_wcsnicmp",
+                            "isspace",
+                            "strcmp",
+                            "strcpy",
+                            "strcspn",
+                            "strlen",
+                            "strncmp",
+                            "strncpy",
+                            "strspn",
+                            "tolower",
+                            "wcslen",
+                            "wcsncpy"
+                        ],
+                        "library_name": "api-ms-win-crt-string-l1-1-0.dll"
+                    },
+                    {
+                        "imported_functions": [
+                            "_localtime64_s",
+                            "_time64"
+                        ],
+                        "library_name": "api-ms-win-crt-time-l1-1-0.dll"
+                    },
+                    {
+                        "imported_functions": [
+                            "_rotr",
+                            "qsort",
+                            "rand",
+                            "srand"
+                        ],
+                        "library_name": "api-ms-win-crt-utility-l1-1-0.dll"
+                    },
+                    {
+                        "imported_functions": [
+                            "??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ",
+                            "??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z",
+                            "??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ",
+                            "??0_Lockit@std@@QEAA@H@Z",
+                            "??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+                            "??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+                            "??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ",
+                            "??1_Lockit@std@@QEAA@XZ",
+                            "??Bid@locale@std@@QEAA_KXZ",
+                            "?_Fiopen@std@@YAPEAU_iobuf@@PEB_WHH@Z",
+                            "?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z",
+                            "?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ",
+                            "?_Gndec@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ",
+                            "?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ",
+                            "?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ",
+                            "?_Throw_C_error@std@@YAXH@Z",
+                            "?_Throw_Cpp_error@std@@YAXH@Z",
+                            "?_Xlength_error@std@@YAXPEBD@Z",
+                            "?_Xout_of_range@std@@YAXPEBD@Z",
+                            "?always_noconv@codecvt_base@std@@QEBA_NXZ",
+                            "?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z",
+                            "?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ",
+                            "?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A",
+                            "?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z",
+                            "?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z",
+                            "?pbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z",
+                            "?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z",
+                            "?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z",
+                            "?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ",
+                            "?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z",
+                            "?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z",
+                            "?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z",
+                            "_Cnd_do_broadcast_at_thread_exit",
+                            "_Mtx_destroy_in_situ",
+                            "_Mtx_init_in_situ",
+                            "_Mtx_lock",
+                            "_Mtx_unlock",
+                            "_Query_perf_counter",
+                            "_Query_perf_frequency",
+                            "_Thrd_hardware_concurrency",
+                            "_Thrd_id",
+                            "_Thrd_join",
+                            "_Thrd_sleep",
+                            "_Thrd_yield",
+                            "_Xtime_get_ticks"
+                        ],
+                        "library_name": "MSVCP140.dll"
+                    },
+                    {
+                        "imported_functions": [
+                            "DispatchMessageA",
+                            "GetMessageA",
+                            "GetSystemMetrics",
+                            "MapVirtualKeyW",
+                            "ShowWindow",
+                            "TranslateMessage"
+                        ],
+                        "library_name": "USER32.dll"
+                    },
+                    {
+                        "imported_functions": [
+                            "__C_specific_handler",
+                            "__CxxFrameHandler3",
+                            "__std_exception_copy",
+                            "__std_exception_destroy",
+                            "__std_terminate",
+                            "_CxxThrowException",
+                            "_purecall",
+                            "memchr",
+                            "memcmp",
+                            "memcpy",
+                            "memmove",
+                            "memset",
+                            "strchr",
+                            "strrchr",
+                            "strstr"
+                        ],
+                        "library_name": "VCRUNTIME140.dll"
+                    },
+                    {
+                        "imported_functions": [
+                            "bind",
+                            "closesocket",
+                            "FreeAddrInfoW",
+                            "GetAddrInfoW",
+                            "getsockopt",
+                            "htonl",
+                            "htons",
+                            "ioctlsocket",
+                            "select",
+                            "setsockopt",
+                            "shutdown",
+                            "socket",
+                            "WSAGetLastError",
+                            "WSAIoctl",
+                            "WSARecv",
+                            "WSARecvFrom",
+                            "WSASend",
+                            "WSASetLastError",
+                            "WSASocketW",
+                            "WSAStartup"
+                        ],
+                        "library_name": "WS2_32.dll"
+                    }
+                ],
+                "machine_type": 34404,
+                "overlay": {
+                    "chi2": 3193785.5,
+                    "entropy": 5.91232967376709,
+                    "filetype": "DOS EXE",
+                    "md5": "9b3c5b70cfa5c26707fcbddf91320429",
+                    "offset": 773632,
+                    "size": 895858
+                },
+                "resource_details": [
+                    {
+                        "chi2": 4031.47,
+                        "entropy": 4.911615371704102,
+                        "filetype": "XML",
+                        "lang": "ENGLISH US",
+                        "sha256": "4bb79dcea0a901f7d9eac5aa05728ae92acb42e0cb22e5dd14134f4421a3d8df",
+                        "type": "RT_MANIFEST"
+                    }
+                ],
+                "resource_langs": {
+                    "ENGLISH US": 1
+                },
+                "resource_types": {
+                    "RT_MANIFEST": 1
+                },
+                "rich_pe_header_hash": "d8704be89bd05efe5cfca8f2412d18d2",
+                "sections": [
+                    {
+                        "chi2": 3487909.5,
+                        "entropy": 6.51,
+                        "flags": "rx",
+                        "md5": "90aab93f1b530b9f1449142fa5a5f1ab",
+                        "name": ".text",
+                        "raw_size": 634368,
+                        "virtual_address": 4096,
+                        "virtual_size": 634043
+                    },
+                    {
+                        "chi2": 2667100.25,
+                        "entropy": 5.77,
+                        "flags": "r",
+                        "md5": "bf54706cf5741a56085dac01457c09ea",
+                        "name": ".rdata",
+                        "raw_size": 98816,
+                        "virtual_address": 638976,
+                        "virtual_size": 98682
+                    },
+                    {
+                        "chi2": 201924.75,
+                        "entropy": 4.05,
+                        "flags": "rw",
+                        "md5": "36e6692631f167709698ca2e9f201c79",
+                        "name": ".data",
+                        "raw_size": 4096,
+                        "virtual_address": 741376,
+                        "virtual_size": 2671520
+                    },
+                    {
+                        "chi2": 434601.22,
+                        "entropy": 5.72,
+                        "flags": "r",
+                        "md5": "030d391279fe5fda6a2e2c287f7ff540",
+                        "name": ".pdata",
+                        "raw_size": 17920,
+                        "virtual_address": 3416064,
+                        "virtual_size": 17532
+                    },
+                    {
+                        "chi2": 52829.17,
+                        "entropy": 6.0,
+                        "flags": "rx",
+                        "md5": "6a7f77e47f77f65bef85036ae5a71106",
+                        "name": "_TEXT_CN",
+                        "raw_size": 6656,
+                        "virtual_address": 3436544,
+                        "virtual_size": 6350
+                    },
+                    {
+                        "chi2": 52602.69,
+                        "entropy": 6.13,
+                        "flags": "rx",
+                        "md5": "7faa15c72cda49e71b4c9baaa5608f5d",
+                        "name": "_TEXT_CN",
+                        "raw_size": 7680,
+                        "virtual_address": 3444736,
+                        "virtual_size": 7620
+                    },
+                    {
+                        "chi2": 9292.0,
+                        "entropy": 4.72,
+                        "flags": "r",
+                        "md5": "0daf311c37452b526a4ca8f5689f8424",
+                        "name": ".rsrc",
+                        "raw_size": 512,
+                        "virtual_address": 3452928,
+                        "virtual_size": 480
+                    },
+                    {
+                        "chi2": 22592.79,
+                        "entropy": 5.25,
+                        "flags": "r",
+                        "md5": "45dfff00d1a9456baaa261d879088681",
+                        "name": ".reloc",
+                        "raw_size": 2560,
+                        "virtual_address": 3457024,
+                        "virtual_size": 2332
+                    }
+                ],
+                "timestamp": 1567039421
+            },
+            "popular_threat_classification": {
+                "popular_threat_category": [
+                    {
+                        "count": 25,
+                        "value": "trojan"
+                    },
+                    {
+                        "count": 16,
+                        "value": "miner"
+                    },
+                    {
+                        "count": 2,
+                        "value": "dropper"
+                    }
+                ],
+                "popular_threat_name": [
+                    {
+                        "count": 5,
+                        "value": "mansabo"
+                    },
+                    {
+                        "count": 2,
+                        "value": "botx"
+                    }
+                ],
+                "suggested_threat_label": "trojan.mansabo/botx"
+            },
+            "reputation": -11,
+            "sha1": "9e8d07ef00f9498b9421fca725eafdac2b9339bf",
+            "sha256": "4038ac243957afbd60b21b2ffb49fe1253b9037e1d4523484e55e99049ed881c",
+            "size": 1669490,
+            "ssdeep": "49152:GezaTF8FcNkNdfE0pZ9ozttwIRxTzkx7kvxIu0i:GemTLkNdfE0pZyr",
+            "tags": [
+                "peexe",
+                "64bits",
+                "overlay"
+            ],
+            "times_submitted": 1,
+            "tlsh": "T18775D06DB6B514E4D5EB8078C41A4A07F7F078A90360D68B53D116DF2F136C2E92AF3A",
+            "total_votes": {
+                "harmless": 0,
+                "malicious": 1
+            },
+            "trid": [
+                {
+                    "file_type": "Win32 EXE PECompact compressed (generic)",
+                    "probability": 61.4
+                },
+                {
+                    "file_type": "Win64 Executable (generic)",
+                    "probability": 15.5
+                },
+                {
+                    "file_type": "Win16 NE executable (generic)",
+                    "probability": 7.4
+                },
+                {
+                    "file_type": "Win32 Executable (generic)",
+                    "probability": 6.6
+                },
+                {
+                    "file_type": "OS/2 Executable (generic)",
+                    "probability": 2.9
+                }
+            ],
+            "type_description": "Win32 EXE",
+            "type_extension": "exe",
+            "type_tag": "peexe",
+            "type_tags": [
+                "executable",
+                "windows",
+                "win32",
+                "pe",
+                "peexe"
+            ],
+            "unique_sources": 1,
+            "vhash": "016086655d15576765555078z71nz64z142d5z"
+        },
+        "id": "4038ac243957afbd60b21b2ffb49fe1253b9037e1d4523484e55e99049ed881c",
+        "links": {
+            "self": "https://www.virustotal.com/api/v3/files/4038ac243957afbd60b21b2ffb49fe1253b9037e1d4523484e55e99049ed881c"
+        },
+        "type": "file"
+    }
+}

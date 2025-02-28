@@ -2,7 +2,7 @@ import requests      # type: ignore
 import json 
 
 # Clase que obtiene el reporte de un archivo en VirusTotal
-class VirusTotalReporter:
+class GetFileReport:
 
     def get_report(self, apikey, hash):
         """
@@ -45,7 +45,7 @@ if __name__ == "__main__":
     hash = input("Ingrese el hash del archivo: ")
     
     # Crea una instancia de la clase y obtiene el reporte
-    vt_reporter = VirusTotalReporter()
+    vt_reporter = GetFileReport()
     report = vt_reporter.get_report(apikey, hash)
     
     # Guarda el reporte en un archivo .txt
